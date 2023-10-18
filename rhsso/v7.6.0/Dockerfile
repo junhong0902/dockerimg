@@ -8,4 +8,4 @@ WORKDIR /tmp/rhsso
 RUN wget 'https://repo.jhchoo.net/repository/file-hosted/redhat/rhsso/v7.6.0/rh-sso-7.6.0.tar.gz'
 RUN tar -xvf rh-sso-7.6.0.tar.gz
 RUN cd ./rh-sso-7.6/bin
-CMD [ "bash", "-c", "/tmp/rhsso/rh-sso-7.6/bin/.standalone.sh" ]
+CMD [ "bash", "-c", "/tmp/rhsso/rh-sso-7.6/bin/standalone.sh" ]
