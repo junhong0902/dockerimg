@@ -1,7 +1,7 @@
 From rockylinux:8.8
 
 # RUN yum update -y
-RUN yum install unzip curl wget vim tar -y
+RUN yum install wget tar -y
 
 WORKDIR /tmp/rhsso
 
